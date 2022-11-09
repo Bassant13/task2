@@ -15,6 +15,6 @@ jobs:
       - name: 'test action'
         run: pwd
 
-      -name: 'test printing'
+      - name: 'test printing'
         run: echo welcome  
   
