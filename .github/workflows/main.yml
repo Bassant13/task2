@@ -12,9 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'test action'
-        run: pwd
-
-      - name: 'test printing'
-        run: echo welcome  
+      - name: 'print contents'
+        run: ls
   
